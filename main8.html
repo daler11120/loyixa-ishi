@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Integer7</title>
+</head>
+<body>
+  <h1>Integer7 Demo</h1>
+  <p>Konsolni oching (F12) va natijani ko'ring.</p>
+
+  <script>
+    function integer7(number) {
+      const tens = Math.floor(number / 10);
+      const units = number % 10;
+      const sum = tens + units;
+      const product = tens * units;
+      console.log("integer7:", sum, product);
+    }
+    integer7(48);
+  </script>
+</body>
+</html>
